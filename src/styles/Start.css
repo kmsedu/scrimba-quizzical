@@ -1,0 +1,21 @@
+.start {
+    display: flex;
+    flex-flow: column;
+    place-items: center;
+    color: #293264;
+}
+
+.start--title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.start--button {
+    background: #4D5B9E;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0.75rem 3rem;
+    font-weight: 600;
+    border-radius: 15px;
+}

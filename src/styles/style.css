@@ -1,0 +1,26 @@
+*, :root {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #1C1C1C;
+    height: 100vh;
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+
+main {
+    background: #F5F7FB;
+    background-image: url(../images/blob-tr.svg), url(../images/blob-bl.svg);
+    background-position: top right, bottom left;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    width: 550px;
+    height: 550px;
+}
