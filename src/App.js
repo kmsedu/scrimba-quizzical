@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Start from './components/Start'
+import Quiz from './components/Quiz'
 
 export default function App () {
-  const renderStart = true
+  const [started, setStarted] = useState(false)
+
+  function startGame () {
+    setStarted((prevStarted) => !prevStarted)
+  }
 
   return (
     <main>
-      {renderStart && <Start />}
+      {started ? <Quiz started={started} /> : <Start startGame={startGame} />}
     </main>
   )
 }

@@ -21,6 +21,6 @@ main {
     display: flex;
     place-content: center;
     place-items: center;
-    width: 550px;
-    height: 550px;
+    width: 600px;
+    height: 600px;
 }

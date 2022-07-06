@@ -36,6 +36,8 @@
     ]
   },
   "devDependencies": {
+    "html-entities": "^2.3.3",
+    "nanoid": "^4.0.0",
     "standard": "^17.0.0"
   }
 }
