@@ -6,7 +6,7 @@ export default function App () {
   const [started, setStarted] = useState(false)
 
   function startGame () {
-    setStarted((prevStarted) => !prevStarted)
+    setStarted(true)
   }
 
   return (
