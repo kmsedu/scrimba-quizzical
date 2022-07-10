@@ -23,4 +23,5 @@ main {
     place-items: center;
     width: 600px;
     min-height: 700px;
+    height: 1px;
 }
