@@ -9,9 +9,17 @@ export default function App () {
     setStarted(true)
   }
 
+  function endGame () {
+    setStarted(false)
+  }
+
   return (
     <main>
-      {started ? <Quiz started={started} /> : <Start startGame={startGame} />}
+      {started
+        ? <Quiz
+            endGame={endGame}
+          />
+        : <Start startGame={startGame} />}
     </main>
   )
 }

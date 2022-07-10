@@ -1,10 +1,6 @@
-.question {
-    min-height: 96px;
-}
-
 .question--text {
     color: #293264;
-    margin: 0;
+    margin: 0.5rem 0;
 }
 
 .question--button-wrapper {
@@ -30,7 +26,7 @@
 .question--choice.selected,
 .question--choice.correct,
 .question--choice.incorrect {
-    border: none;
+    border: 1px solid transparent;
 }
 
 .question--choice.selected {
@@ -43,5 +39,10 @@
 
 .question--choice.incorrect {
     background: #F8BCBC;
+    color: #29326481;
+}
+
+.question--choice.faded {
+    border: 1px solid #29326441;
     color: #29326481;
 }

@@ -1,7 +1,10 @@
 .quiz {
     display: flex;
     flex-flow: column;
+    justify-content: center;
     width: 90%;
+    height: 100%;
+    padding-top: 3rem;
 }
 
 .quiz--button {
@@ -12,5 +15,17 @@
     border-radius: 10px;
     font-weight: 600;
     align-self: center;
-    margin-top: 1rem;
+    transition: background 0.3s ease-in-out;
+}
+
+.quiz--button:hover {
+    background: #3a4477;
+}
+
+.quiz--check-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
 }
